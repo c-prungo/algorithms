@@ -3,9 +3,9 @@ import sys
 
 
 @pytest.fixture(autouse=True)
-def add_to_path():
+def leet_code_path():
 
-    path = 'problems/team_performance'
+    path = "src/leet_code"
 
     try:
         sys.path.append(path)
