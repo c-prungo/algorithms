@@ -11,7 +11,7 @@ def test_team_performance_calculation_basic():
     assert res == 10
 
 
-def test_team_performance_case_one():
+def test_team_performance_solution_1_case_1():
     from solution_1 import get_team_performance
 
     res = get_team_performance(
@@ -23,7 +23,7 @@ def test_team_performance_case_one():
     assert res == 10
 
 
-def test_team_performance_case_two():
+def test_team_performance_solution_1_case_2():
     from solution_1 import get_team_performance
 
     res = get_team_performance(
